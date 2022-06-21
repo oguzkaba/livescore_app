@@ -7,10 +7,11 @@ class HomeController extends GetxController {
 
   final leagues = LeaguesModel().obs;
   final loadedLeagues = false.obs;
+  final bottomIndex = 0.obs;
 
   @override
   void onInit() {
-    getLeaguesData();
+    // getLeaguesData();
     super.onInit();
   }
 
